@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.gretty:gretty:+'
+    }
+}
+
+apply plugin: 'war'
+apply plugin: 'org.gretty'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    maven { url 'http://mavensync.zkoss.org/maven2' }
+    maven { url 'http://mavensync.zkoss.org/eval' }
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.zkoss.zk:zul:${zkVersion}"
+    compile 'org.zkoss.addon:drawer:0.8.0.FL.20190326-Eval'
+}
+
+gretty {
+    httpPort = 8080
+}
