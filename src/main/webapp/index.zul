@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="style.css"?>
 <zk>
   <window title="Drawer demo" apply="zk.demo.DrawerComposer">
     <button id="open" label="Open"/>
-    <drawer id="drawer" title="The drawer" width="400px" height="300px">
+    <drawer id="drawer" title="The drawer" width="400px" height="350px">
       <vlayout>
         Position:
         <radiogroup id="position">
@@ -20,14 +21,17 @@
         Close button:
         <button id="closable" label="toggle"/>
       </vlayout>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et augue nec lacus tincidunt tincidunt nec vehicula nibh. Cras mi ante, cursus ac pharetra non, pellentesque id quam. Maecenas condimentum nisl dolor, eu dignissim nisi lacinia fringilla. Nunc suscipit vestibulum neque vitae pellentesque. Morbi tempus finibus enim, condimentum ornare urna lobortis a. Nullam mattis, magna non volutpat commodo, nisi mi ultricies purus, a scelerisque dolor eros nec ante. Pellentesque non velit a eros tempus dapibus. Maecenas metus eros, venenatis sed consequat vel, dictum id augue. Morbi purus ipsum, gravida a euismod id, eleifend et lorem. Nulla facilisi. Ut congue maximus mollis. Vivamus eget vehicula risus. Donec faucibus sagittis sapien, nec rhoncus ipsum facilisis et.
-      </div>
-      <div>
-        Nulla semper ut magna iaculis interdum. Mauris vitae lacus ac purus mollis mollis. Nam id ultrices enim, ac consequat lectus. Suspendisse eu tincidunt magna. Nulla ac elit at urna elementum vulputate non eget nunc. Curabitur tristique mauris congue metus varius bibendum. Fusce sagittis pretium tempus. Vestibulum maximus enim non sem sollicitudin varius. Integer id enim viverra, accumsan justo et, suscipit ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem elit, malesuada in est ac, malesuada mollis justo. Nullam orci arcu, consectetur eget luctus non, molestie quis sapien. In sed sem nulla.
-      </div>
-      <div>
-        Proin scelerisque justo accumsan lorem mollis pulvinar. Praesent consequat volutpat leo vel mattis. Nunc non velit a libero sagittis egestas id nec nunc. Aenean aliquam lacinia arcu. Ut mattis enim et suscipit rutrum. Quisque at tempor sem, vitae venenatis arcu. Sed diam nulla, finibus nec odio non, auctor porttitor metus. Pellentesque a diam sagittis sem vehicula varius vel sed enim. Cras risus neque, scelerisque nec mollis non, efficitur eu turpis.
+      <div sclass="item-container">
+          <div sclass="item icon1">vehicula vehicula turpis est</div>
+          <div sclass="item icon2">a nunc tincidunt ad id dictum</div>
+          <div sclass="item icon3">enim vitae nec ac eleifend mauris</div>
+          <div sclass="item icon4">a donec tortor at laoreet aliquam</div>
+          <div sclass="item icon5">mi ut mus neque</div>
+          <div sclass="item icon6">condimentum at dolor platea ante ut</div>
+          <div sclass="item icon7">proin gravida varius ut vitae in</div>
+          <div sclass="item icon8">porttitor amet eget id sapien</div>
+          <div sclass="item icon9">orci vivamus dui</div>
+          <div sclass="item icon10">in aenean lorem viverra enim imperdiet</div>
       </div>
     </drawer>
   </window>

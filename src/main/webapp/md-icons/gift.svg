@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>mdi-light:gift</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ZK-Theme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Drawer-demo-top" transform="translate(-556.000000, -242.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(556.000000, 242.000000)">
+                <g id="mdi-light:gift">
+                    <path d="M4,13 L4,21 L11,21 L11,13 L4,13 Z M12,13 L12,21 L19,21 L19,13 L12,13 Z M20,13 L20,22 L3,22 L3,13 L2,13 L2,7 L5.035,7 L5,6.5 C4.99944959,4.92702953 6.04831675,3.54691371 7.56399557,3.12625455 C9.07967439,2.70559538 10.6897964,3.34773942 11.5,4.696 C12.3102036,3.34773942 13.9203256,2.70559538 15.4360044,3.12625455 C16.9516832,3.54691371 18.0005504,4.92702953 18,6.5 L17.965,7 L21,7 L21,13 L20,13 Z M3,8 L3,12 L11,12 L11,8 L3,8 Z M20,12 L20,8 L12,8 L12,12 L20,12 Z M16.95,7 L17,6.5 C17,5.11928813 15.8807119,4 14.5,4 C13.1192881,4 12,5.11928813 12,6.5 L12,7 L16.95,7 L16.95,7 Z M11,7 L11,6.5 C11,5.11928813 9.88071187,4 8.5,4 C7.11928813,4 6,5.11928813 6,6.5 L6.05,7 L11,7 Z" id="Shape"></path>
+                    <rect id="Rectangle" fill-opacity="0.01" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

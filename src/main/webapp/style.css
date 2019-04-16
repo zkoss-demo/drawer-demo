@@ -1,0 +1,72 @@
+.z-label, .z-radio-content, .z-button {
+    font-size: 12px;
+}
+
+.z-drawer-title {
+    color: rgba(0, 0, 0, 0.57);
+    font-size: 14px;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px; /* 20 - item margin-top 15 */
+    margin-left: -10px;
+    max-width: 1345px; /* item:(259+10) * 5 */
+}
+
+.item {
+    width: 259px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.item::before {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    vertical-align: inherit;
+}
+
+.item.icon1::before {
+    content: url(md-icons/lightbulb-on.svg);
+}
+
+.item.icon2::before {
+    content: url(md-icons/cloud-download.svg);
+}
+
+.item.icon3::before {
+    content: url(md-icons/gift.svg);
+}
+
+.item.icon4::before {
+    content: url(md-icons/cart.svg);
+}
+
+.item.icon5::before {
+    content: url(md-icons/camera.svg);
+}
+
+.item.icon6::before {
+    content: url(md-icons/calendar.svg);
+}
+
+.item.icon7::before {
+    content: url(md-icons/bullhorn.svg);
+}
+
+.item.icon8::before {
+    content: url(md-icons/clock.svg);
+}
+
+.item.icon9::before {
+    content: url(md-icons/cog.svg);
+}
+
+.item.icon10::before {
+    content: url(md-icons/flask.svg);
+}
