@@ -1,6 +1,6 @@
 package zk.demo;
 
-import org.zkoss.addon.Drawer;
+import org.zkoss.zkmax.zul.Drawer;
 import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.select.SelectorComposer;
 import org.zkoss.zk.ui.select.annotation.Listen;
